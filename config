@@ -220,7 +220,7 @@ for_window [class="^.*"] border pixel 1
 new_window 1pixel
 
 # logout bar
-set $Locker exec ~/.config/i3/i3lock-fancy-multimonitor/lock
+set $Locker exec ~/.config/i3/i3lock/lock
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
   bindsym l exec --no-startup-id $Locker, mode "default"
